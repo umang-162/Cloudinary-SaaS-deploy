@@ -1,16 +1,4 @@
 {
   "version": 2,
-  "framework": "nextjs",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/next"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/((?!api|_next|static|favicon.ico).*)",
-      "destination": "/"
-    }
-  ]
+  "framework": "nextjs"
 }
